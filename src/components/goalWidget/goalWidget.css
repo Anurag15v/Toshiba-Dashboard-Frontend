@@ -1,0 +1,39 @@
+.goal-widget {
+    position: relative; /* Add this line to set position context */
+    width: 200px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .text10 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .goal-report {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    color: #734A00;
+    font-size: 14px;
+  }
+  
+  .semicircle-percent-value
+  {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .topRightArrow
+  {
+    height:15px;
+    width:15px;
+  }

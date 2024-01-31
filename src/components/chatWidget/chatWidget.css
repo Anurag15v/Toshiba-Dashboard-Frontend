@@ -1,0 +1,53 @@
+.chat-widget {
+  background-color: white;
+  width: 200px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.header4 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+}
+
+.unread-messages {
+  font-size: 12px;
+  color: #454545;
+  margin-top: 5px;
+}
+
+.user-images {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.image-cover {
+  height: 50px;
+  width: 50px;
+  background-color: #FFF7E8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.white-image-cover
+{
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}

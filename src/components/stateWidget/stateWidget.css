@@ -1,0 +1,36 @@
+.states-widget {
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .header5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  .state-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #FFCD71, #FFCD7100); /* Example gradient background */
+    padding:5px;
+    border-radius: 5px;
+  }
+  
+  .state-name {
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .state-amount {
+    font-size: 10px;
+    color: black;
+    font-weight: 500;
+  }
+  

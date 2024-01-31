@@ -1,0 +1,17 @@
+.widget-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust as needed for spacing between rows */
+  }
+  
+  .widget-row {
+    display: flex;
+    gap: 10px; /* Adjust as needed for spacing between widgets in a row */
+    flex-wrap: wrap; /* Allow widgets to wrap to the next row if necessary */
+  }
+  
+  /* Ensure each widget fills the available space in the row */
+  .widget-row > * {
+    flex: 1;
+  }
+  

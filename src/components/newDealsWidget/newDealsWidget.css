@@ -1,0 +1,42 @@
+.new-deals-widget {
+    width: 300px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .header6 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+  }
+  
+  .deal {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: flex-start;
+    row-gap: 5px;
+    column-gap: 5px;
+    flex-wrap: wrap;
+  }
+  
+  .deal-info {
+    display: flex;
+    align-items: center;
+    background-color: #FFF7E8;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .plus-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .deal-text {
+    font-size: 14px;
+    color: #734A00;
+    margin-left: 10px;
+  }
+  

@@ -1,0 +1,98 @@
+.customers-widget {
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 300px;
+    position: relative;
+    background-color: white;
+  }
+  
+  .header7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sort {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color:#454545;
+  }
+  .golden-arrow
+  {
+    height:20px;
+    width: 20px;
+    position: absolute;
+  }
+  .sort img {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+  }
+  
+  .customer-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+    column-gap: 10px;
+    padding: 5px 0px 5px 15px;
+  }
+  
+  
+  /* Additional styling for username and info */
+  .username {
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .text2
+  {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .info {
+    font-size: 12px;
+    color: #888;
+  }
+  .customer-report {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    color: #734A00;
+    font-size: 14px;
+  }
+  .customer-row:hover .hover-overlay {
+    display: flex;
+  }
+  .customer-row:hover{
+    background-color: #FFF7E8;
+    border-radius: 10px;
+  }
+  .hover-overlay {
+    display: none;
+    position: absolute;
+    right: 50px;
+    width: 30px;
+    height: 30px;
+    background-color: #FFF7E8;
+    justify-content: center;
+    align-items: center;
+  }
+  .customer-row img{
+    width:40px;
+    height: 40px;
+  }
+  .hover-overlay img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+  }
+  
+  .customer-list
+  {
+    margin-top: 10px;
+  }

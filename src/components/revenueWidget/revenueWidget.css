@@ -1,0 +1,40 @@
+.widget1 {
+  position: relative; /* Add this line to set position context */
+  width: 200px;
+  height: 180px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+.text1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+.percentage1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.increase-text1 {
+  font-size: 12px;
+  color: #454545;
+}
+
+.report1 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 5px 10px;
+  color: #734A00;
+  font-size: 14px;
+}
+
+.topRightArrow
+{
+  height:15px;
+  width:15px;
+}
